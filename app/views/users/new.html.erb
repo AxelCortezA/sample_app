@@ -14,10 +14,10 @@
                 <%= f.text_field :email, class: 'form-control mb-3' %>
 
                 <%= f.label :password, class: 'text-sm' %>
-                <%= f.text_field :password, class: 'form-control mb-3' %>
+                <%= f.password_field :password, class: 'form-control mb-3' %>
 
                 <%= f.label :password_confirmation, class: 'text-sm' %>
-                <%= f.text_field :password_confirmation, class: 'form-control mb-3' %>
+                <%= f.password_field :password_confirmation, class: 'form-control mb-3', typer: 'password' %>
 
                 <%= f.submit "Create my account", class: "btn btn-primary" %>
             <% end %>
